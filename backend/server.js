@@ -3,9 +3,11 @@ const express = require("express")
 const cors = require("cors")
 const path = require("path")
 const connectDB = require("./config/db.js")
+const { protect } = require("./middlewares/authMiddleware.js")
 
 const authRoutes = require("./routes/authRoutes.js")
-const sessionRoutes=require("./routes/sessionRoutes.js")
+const sessionRoutes = require("./routes/sessionRoutes.js")
+const questionRoutes = require("./routes/questionRoutes.js")
 
 const app = express()
 
@@ -26,10 +28,10 @@ app.use(express.json())
 // Routes
 app.use("/api/auth", authRoutes)
 app.use("/api/sessions", sessionRoutes)
-// app.use("/api/questions", questionRoutes)
+app.use("/api/questions", questionRoutes)
 
-// app.use("/api/ai/generate-questions", ProcessingInstruction, generateInterviewQuestions)
-// app.use("/api/ai/generate-explanation", ProcessingInstruction, generateConceptExplanation)
+app.use("/api/ai/generate-questions", protect, generateInterviewQuestions)
+app.use("/api/ai/generate-explanation", protect, generateConceptExplanation)
 
 // Serve uploads folder
 app.use("/uploads", express.static(path.join(__dirname, "uploads"), {}))

@@ -13,7 +13,7 @@ const sessionSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    topicToFocus: {
+    topicsToFocus: {
         type: String,
         required: true
     },

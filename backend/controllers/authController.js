@@ -7,7 +7,7 @@ const generateToken = (userId) => {
     return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: "7d" })
 }
 
-// @desc  login user
+// @desc  register a new user
 // @route  POST /api/auth/register
 // @access  Public
 const registerUser = async (req, res) => {
@@ -102,9 +102,7 @@ const getUserProfile = async (req, res) => {
             })
         }
 
-        res.json({
-            user
-        })
+        res.json(user)
 
     } catch (error) {
         res.status(500).json({

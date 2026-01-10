@@ -49,6 +49,11 @@ exports.createSession = async (req, res) => {
 // @ access  private
 exports.getMySessions = async (req, res) => {
     try {
+        const sessions = await Session.find({ user: req.user.id })
+            .sort({ createdAt: -1 })
+            .populate("questions")
+
+        res.status(200).json(sessions)
 
     } catch (error) {
         res.status(500).json({
@@ -63,6 +68,24 @@ exports.getMySessions = async (req, res) => {
 // @access  private
 exports.getSessionById = async (req, res) => {
     try {
+        const session = await Session.findById(req.params.id)
+            .populate({
+                path: "questions",
+                options: { sort: { isPinned: -1, createdAt: 1 } },
+            })
+            .exec()
+
+        if (!session) {
+            return res.status(400).json({
+                success: false,
+                message: "Session Not Found"
+            })
+        }
+
+        res.status(200).json({
+            success: true,
+            session
+        })
 
     } catch (error) {
         res.status(500).json({
@@ -73,10 +96,34 @@ exports.getSessionById = async (req, res) => {
 }
 
 // @desc  delete a session and its questions
-// @route  DELETE /api/session/:id
+// @route  DELETE /api/sessions/:id
 // @access  private
 exports.deleteSession = async (req, res) => {
     try {
+        const session = await Session.findById(req.params.id)
+
+        if (!session) {
+            return res.status(404).json({
+                message: "Session Not Found"
+            })
+        }
+
+        // check if the logged-in user owns this session
+        if (session.user.toString() !== req.user.id) {
+            return res.status(401).json({
+                message: "Not Authorized to Delete this Session"
+            })
+        }
+
+        // first, delete all questions linked to this session
+        await Question.deleteMany({ session: session._id })
+
+        // then, delete the session
+        await session.deleteOne()
+
+        res.status(200).json({
+            message: "Session Deleted Successfully"
+        })
 
     } catch (error) {
         res.status(500).json({
