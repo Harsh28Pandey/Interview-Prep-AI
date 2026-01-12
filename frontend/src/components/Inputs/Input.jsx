@@ -21,7 +21,7 @@ const Input = ({ value, onChange, label, placeholder, type }) => {
             {/* input wrapper */}
             <div
                 className='relative flex items-center gap-2 px-4 py-3
-                rounded-3xl border border-slate-200
+                rounded-2xl border border-slate-200
                 bg-white/70 backdrop-blur-md
                 shadow-sm transition-all duration-300
                 focus-within:border-amber-400
