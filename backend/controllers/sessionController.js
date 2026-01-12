@@ -49,7 +49,10 @@ exports.createSession = async (req, res) => {
 // @ access  private
 exports.getMySessions = async (req, res) => {
     try {
-        const sessions = await Session.find({ user: req.user.id })
+        // console.log("REQ USER:", req.user)
+        // console.log("REQ USER ID:", req.user._id)
+
+        const sessions = await Session.find({ user: req.user._id })
             .sort({ createdAt: -1 })
             .populate("questions")
 
@@ -109,7 +112,7 @@ exports.deleteSession = async (req, res) => {
         }
 
         // check if the logged-in user owns this session
-        if (session.user.toString() !== req.user.id) {
+        if (session.user.toString() !== req.user._id.toString()) {
             return res.status(401).json({
                 message: "Not Authorized to Delete this Session"
             })

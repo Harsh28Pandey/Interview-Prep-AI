@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { APP_FEATURES } from "../utils/data.js"
 import { useNavigate } from 'react-router-dom'
 import { LuSparkles } from "react-icons/lu"
 import Model from '../components/Model.jsx'
 import Login from "../pages/Auth/Login.jsx"
 import SignUp from "../pages/Auth/SignUp.jsx"
+import { UserContext } from '../context/userContext.jsx'
+import ProfileInfoCard from '../components/Cards/ProfileInfoCard.jsx'
 
 const LandingPage = () => {
+
+    const { user } = useContext(UserContext)
 
     const navigate = useNavigate()
 
@@ -15,7 +19,13 @@ const LandingPage = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 
-    const handleCTA = () => { }
+    const handleCTA = () => {
+        if (!user) {
+            setOpenAuthModel(true)
+        } else {
+            navigate("/dashboard")
+        }
+    }
 
     return (
         <>
@@ -43,30 +53,39 @@ const LandingPage = () => {
 
                         {/* DESKTOP BUTTONS */}
                         <div className="hidden md:flex items-center gap-4">
-                            <button
-                                onClick={() => {
-                                    setCurrentPage("login")
-                                    setOpenAuthModel(true)
-                                }}
-                                className="rounded-full border border-amber-300
-                                px-6 py-2.5 text-sm font-semibold text-black
-                                hover:bg-amber-100 transition-all duration-300 hover:shadow-2xl hover:scale-105"
-                            >
-                                Login
-                            </button>
+                            {user ? (
+                                // 🔹 Login ke baad sirf ek profile card
+                                <ProfileInfoCard />
+                            ) : (
+                                // 🔹 Logout ke baad Login + Signup buttons
+                                <>
+                                    <button
+                                        onClick={() => {
+                                            setCurrentPage("login")
+                                            setOpenAuthModel(true)
+                                        }}
+                                        className="rounded-full border border-amber-300
+                                        px-6 py-2.5 text-sm font-semibold text-black
+                                      hover:bg-amber-100 transition-all duration-300 hover:shadow-2xl hover:scale-105"
+                                    >
+                                        Login
+                                    </button>
 
-                            <button
-                                onClick={() => {
-                                    setCurrentPage("signup")
-                                    setOpenAuthModel(true)
-                                }}
-                                className="rounded-full bg-linear-to-r from-[#ff9a4b] to-[#f3b44d]
-                                px-8 py-2.5 text-sm font-semibold text-white
-                                shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
-                            >
-                                Sign Up
-                            </button>
+                                    <button
+                                        onClick={() => {
+                                            setCurrentPage("signup")
+                                            setOpenAuthModel(true)
+                                        }}
+                                        className="rounded-full bg-linear-to-r from-[#ff9a4b] to-[#f3b44d]
+                                        px-8 py-2.5 text-sm font-semibold text-white
+                                        shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                                    >
+                                        Sign Up
+                                    </button>
+                                </>
+                            )}
                         </div>
+
 
                         {/* MOBILE MENU ICON */}
                         <button
