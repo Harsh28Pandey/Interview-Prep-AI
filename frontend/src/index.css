@@ -35,7 +35,7 @@
 @layer utilities {
 
   /* Animate text with a shine effect */
-  @ketframes text-shine {
+  @keyframes text-shine {
     0% {
       background-position: 0% 50%;
     }
