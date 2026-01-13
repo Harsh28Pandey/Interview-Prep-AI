@@ -1,4 +1,4 @@
-# 🚀 Interview Prep AI
+# 🚀 InterviewPrep AI – Smart, Role-Based Interview Preparation Platform
 
 Interview Prep AI is a modern, AI-powered interview preparation platform that helps users prepare for role-specific interviews with personalized questions, detailed explanations, and structured learning journeys.
 
