@@ -10,6 +10,7 @@ import SummaryCard from '../../components/Cards/SummaryCard.jsx'
 import moment from "moment"
 import Model from '../../components/Model.jsx'
 import CreateSessionForm from './CreateSessionForm.jsx'
+import DeleteAlertContent from '../../components/DeleteAlertContent.jsx'
 
 const Dashboard = () => {
 
@@ -34,7 +35,19 @@ const Dashboard = () => {
     }
 
     const deleteSession = async (sessionData) => {
+        try {
+            await axiosInstance.delete(API_PATHS.SESSION.DELETE(sessionData?._id))
 
+            toast.success("Session Deleted Successfully")
+            setOpenDeleteAlert({
+                open: false,
+                data: null,
+            })
+            fetchAllSessions()
+
+        } catch (error) {
+            console.error("Error Deleting Session Data: ", error)
+        }
     }
 
     useEffect(() => {
@@ -81,6 +94,21 @@ const Dashboard = () => {
             >
                 <div>
                     <CreateSessionForm />
+                </div>
+            </Model>
+
+            <Model
+                isOpen={openDeleteAlert?.open}
+                onClose={() => {
+                    setOpenDeleteAlert({ open: false, data: null })
+                }}
+                title="Delete Alert"
+            >
+                <div className='w-[30vw]'>
+                    <DeleteAlertContent
+                        content="Are you sure you want to delete this session detail?"
+                        onDelete={() => deleteSession(openDeleteAlert.data)}
+                    />
                 </div>
             </Model>
 

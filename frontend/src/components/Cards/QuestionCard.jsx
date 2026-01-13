@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { LuChevronDown, LuPin, LuPinOff, LuSparkles } from 'react-icons/lu'
+import AIResponsePreview from '../../pages/InterviewPrep/components/AIResponsePreview'
 
 const QuestionCard = ({ question, answer, onLearnMore, isPinned, onTogglePin }) => {
 
@@ -22,7 +23,7 @@ const QuestionCard = ({ question, answer, onLearnMore, isPinned, onTogglePin }) 
 
     return (
         <>
-            <div className='bg-white rounded-lg mb-4 overflow-hidden py-4 px-5 shadow-xl shadow-gray-100/70 border border-gray-100/60 group'>
+            <div className='bg-white rounded-lg mb-4 overflow-hidden py-4 px-5 shadow-lg shadow-gray-400/60 border border-gray-400/60 group'>
                 <div className='flex items-start justify-between cursor-pointer'>
                     <div className='flex items-start gap-3.5'>
                         <span className='text-xs md:text-[15px] font-bold text-gray-700 leading-4.8'>Q</span>
@@ -64,7 +65,7 @@ const QuestionCard = ({ question, answer, onLearnMore, isPinned, onTogglePin }) 
 
                 <div className='overflow-hidden transition-all duration-300 ease-in-out' style={{ maxHeight: `${height}px` }}>
                     <div ref={contentRef} className='mt-4 text-gray-700 bg-gray-200 py-3 rounded-lg'>
-
+                        <AIResponsePreview content={answer} />
                     </div>
                 </div>
 
