@@ -19,24 +19,18 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 
 ## 🖥 Frontend
 
-| Technology   | Logo                                                                                                  |
-| ------------ | ----------------------------------------------------------------------------------------------------- |
-| React.js     | ![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)                |
-| JavaScript   | ![JavaScript](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png) |
-| Tailwind CSS | ![Tailwind CSS](https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png)   |
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## ⚙️ Backend
 
-| Technology | Logo                                                                                         |
-| ---------- | -------------------------------------------------------------------------------------------- |
-| Node.js    | ![Node.js](https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png)   |
-| Express.js | ![Express](https://raw.githubusercontent.com/github/explore/main/topics/express/express.png) |
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ## 💾 Database
 
-| Technology | Logo                                                                                         |
-| ---------- | -------------------------------------------------------------------------------------------- |
-| MongoDB    | ![MongoDB](https://raw.githubusercontent.com/github/explore/main/topics/mongodb/mongodb.png) |
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## 📸 Screenshots & Pages
 
@@ -46,7 +40,7 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 **Description:**  
 AI-powered platform to generate role-specific interview questions, explore concepts deeply, and prepare smarter for technical and professional interviews.
 
-📷 Screenshot:  
+📷 Screenshot:
 
 ![Home Page](./screenshots/interview_prep_ai_home_page.png)
 
@@ -58,7 +52,7 @@ AI-powered platform to generate role-specific interview questions, explore conce
 **Description:**  
 Securely log in to access your personalized interview sessions, saved progress, and AI-driven learning experience.
 
-📷 Screenshot:  
+📷 Screenshot:
 
 ![Login Page](./screenshots/interview_prep_ai_login_page.png)
 
@@ -70,7 +64,7 @@ Securely log in to access your personalized interview sessions, saved progress, 
 **Description:**  
 Create your account to unlock personalized interview preparation, role-based questions, and structured learning paths.
 
-📷 Screenshot:  
+📷 Screenshot:
 
 ![Sign Up Page](./screenshots/interview_prep_ai_signup_page.png)
 
@@ -82,7 +76,7 @@ Create your account to unlock personalized interview preparation, role-based que
 **Description:**  
 Manage all your interview preparation journeys in one place. View roles, experience level, number of questions, and last updates.
 
-📷 Screenshot:  
+📷 Screenshot:
 
 ![Dashboard Page](./screenshots/interview_prep_ai_dashboard_page.png)
 
@@ -94,7 +88,7 @@ Manage all your interview preparation journeys in one place. View roles, experie
 **Description:**  
 Start a new interview journey by selecting your target role, experience level, focus topics, and personal goals to generate customized questions.
 
-📷 Screenshot:  
+📷 Screenshot:
 
 ![Create Interview Question Page](./screenshots/interview_prep_ai_create_session_page.png)
 
@@ -106,7 +100,7 @@ Start a new interview journey by selecting your target role, experience level, f
 **Description:**  
 Practice real interview questions with AI-generated answers, detailed explanations, and practical code examples for deeper understanding.
 
-📷 Screenshot:  
+📷 Screenshot:
 
 ![Interview Questions Page](./screenshots/interview_prep_ai_interview_questions_page.png)
 
