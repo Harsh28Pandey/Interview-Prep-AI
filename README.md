@@ -112,7 +112,7 @@ Practice real interview questions with AI-generated answers, detailed explanatio
 Experience the full functionality of Interview Prep AI in real time. Generate role-specific interview questions, explore detailed answers, and manage your personalized interview preparation journey with an intuitive AI-powered interface.
 
 🔗 **Live URL:**  
-👉 [Visit Interview Prep AI Live 🚀]()
+👉 [Visit Interview Prep AI Live 🚀](https://interview-prep-ai-1-sqi7.onrender.com/)
 
 ✨ Built to help candidates prepare smarter, faster, and more confidently for real-world technical interviews.
 
