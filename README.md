@@ -47,6 +47,7 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 AI-powered platform to generate role-specific interview questions, explore concepts deeply, and prepare smarter for technical and professional interviews.
 
 📷 Screenshot:  
+
 ![Home Page](./screenshots/interview_prep_ai_home_page.png)
 
 ---
@@ -58,6 +59,7 @@ AI-powered platform to generate role-specific interview questions, explore conce
 Securely log in to access your personalized interview sessions, saved progress, and AI-driven learning experience.
 
 📷 Screenshot:  
+
 ![Login Page](./screenshots/interview_prep_ai_login_page.png)
 
 ---
@@ -69,6 +71,7 @@ Securely log in to access your personalized interview sessions, saved progress, 
 Create your account to unlock personalized interview preparation, role-based questions, and structured learning paths.
 
 📷 Screenshot:  
+
 ![Sign Up Page](./screenshots/interview_prep_ai_signup_page.png)
 
 ---
@@ -80,6 +83,7 @@ Create your account to unlock personalized interview preparation, role-based que
 Manage all your interview preparation journeys in one place. View roles, experience level, number of questions, and last updates.
 
 📷 Screenshot:  
+
 ![Dashboard Page](./screenshots/interview_prep_ai_dashboard_page.png)
 
 ---
@@ -91,6 +95,7 @@ Manage all your interview preparation journeys in one place. View roles, experie
 Start a new interview journey by selecting your target role, experience level, focus topics, and personal goals to generate customized questions.
 
 📷 Screenshot:  
+
 ![Create Interview Question Page](./screenshots/interview_prep_ai_create_session_page.png)
 
 ---
@@ -102,6 +107,7 @@ Start a new interview journey by selecting your target role, experience level, f
 Practice real interview questions with AI-generated answers, detailed explanations, and practical code examples for deeper understanding.
 
 📷 Screenshot:  
+
 ![Interview Questions Page](./screenshots/interview_prep_ai_interview_questions_page.png)
 
 ---
