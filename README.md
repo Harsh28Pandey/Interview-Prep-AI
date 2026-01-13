@@ -34,10 +34,8 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 
 ## 📸 Screenshots & Pages
 
-### 🏠 Home Page
-
-**Title:** Interview Prep AI – Home  
-**Description:**  
+### 🏠 Interview Prep AI – Home  
+ 
 AI-powered platform to generate role-specific interview questions, explore concepts deeply, and prepare smarter for technical and professional interviews.
 
 📷 Screenshot:
@@ -46,10 +44,8 @@ AI-powered platform to generate role-specific interview questions, explore conce
 
 ---
 
-### 🔐 Login Page
+### 🔐 Interview Prep AI – Login  
 
-**Title:** Interview Prep AI – Login  
-**Description:**  
 Securely log in to access your personalized interview sessions, saved progress, and AI-driven learning experience.
 
 📷 Screenshot:
@@ -58,10 +54,8 @@ Securely log in to access your personalized interview sessions, saved progress, 
 
 ---
 
-### 📝 Sign Up Page
+### 📝 Interview Prep AI – Sign Up  
 
-**Title:** Interview Prep AI – Sign Up  
-**Description:**  
 Create your account to unlock personalized interview preparation, role-based questions, and structured learning paths.
 
 📷 Screenshot:
@@ -70,10 +64,8 @@ Create your account to unlock personalized interview preparation, role-based que
 
 ---
 
-### 📊 Dashboard Page
-
-**Title:** Interview Prep AI – Dashboard  
-**Description:**  
+### 📊 Interview Prep AI – Dashboard  
+ 
 Manage all your interview preparation journeys in one place. View roles, experience level, number of questions, and last updates.
 
 📷 Screenshot:
@@ -82,10 +74,8 @@ Manage all your interview preparation journeys in one place. View roles, experie
 
 ---
 
-### ➕ Create Interview Session
+### ➕ Interview Prep AI – Create Interview Session  
 
-**Title:** Interview Prep AI – Create Interview Session  
-**Description:**  
 Start a new interview journey by selecting your target role, experience level, focus topics, and personal goals to generate customized questions.
 
 📷 Screenshot:
@@ -94,10 +84,8 @@ Start a new interview journey by selecting your target role, experience level, f
 
 ---
 
-### ❓ Interview Questions Page
+### ❓ Interview Prep AI – Interview Q&A  
 
-**Title:** Interview Prep AI – Interview Q&A  
-**Description:**  
 Practice real interview questions with AI-generated answers, detailed explanations, and practical code examples for deeper understanding.
 
 📷 Screenshot:
