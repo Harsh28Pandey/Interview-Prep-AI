@@ -17,22 +17,26 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 
 ## 🛠️ Tech Stack
 
-### Frontend
+## 🖥 Frontend
 
-- React.js
-- JavaScript (ES6+)
-- Tailwind CSS
+| Technology   | Logo                                                                                                  |
+| ------------ | ----------------------------------------------------------------------------------------------------- |
+| React.js     | ![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)                |
+| JavaScript   | ![JavaScript](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png) |
+| Tailwind CSS | ![Tailwind CSS](https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png)   |
 
-### Backend
+## ⚙️ Backend
 
-- Node.js
-- Express.js
+| Technology | Logo                                                                                         |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| Node.js    | ![Node.js](https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png)   |
+| Express.js | ![Express](https://raw.githubusercontent.com/github/explore/main/topics/express/express.png) |
 
-### Database
+## 💾 Database
 
-- MongoDB
-
----
+| Technology | Logo                                                                                         |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| MongoDB    | ![MongoDB](https://raw.githubusercontent.com/github/explore/main/topics/mongodb/mongodb.png) |
 
 ## 📸 Screenshots & Pages
 
@@ -43,7 +47,7 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 AI-powered platform to generate role-specific interview questions, explore concepts deeply, and prepare smarter for technical and professional interviews.
 
 📷 Screenshot:  
-`/screenshots/interview_prep_ai_home_page.png`
+![Home Page](./screenshots/interview_prep_ai_home_page.png)
 
 ---
 
@@ -54,7 +58,7 @@ AI-powered platform to generate role-specific interview questions, explore conce
 Securely log in to access your personalized interview sessions, saved progress, and AI-driven learning experience.
 
 📷 Screenshot:  
-`/screenshots/interview_prep_ai_login_page.png`
+![Login Page](./screenshots/interview_prep_ai_login_page.png)
 
 ---
 
@@ -65,7 +69,7 @@ Securely log in to access your personalized interview sessions, saved progress, 
 Create your account to unlock personalized interview preparation, role-based questions, and structured learning paths.
 
 📷 Screenshot:  
-`/screenshots/interview_prep_ai_signup_page.png`
+![Sign Up Page](./screenshots/interview_prep_ai_signup_page.png)
 
 ---
 
@@ -76,7 +80,7 @@ Create your account to unlock personalized interview preparation, role-based que
 Manage all your interview preparation journeys in one place. View roles, experience level, number of questions, and last updates.
 
 📷 Screenshot:  
-`/screenshots/interview_prep_ai_dashboard_page.png`
+![Dashboard Page](./screenshots/interview_prep_ai_dashboard_page.png)
 
 ---
 
@@ -87,7 +91,7 @@ Manage all your interview preparation journeys in one place. View roles, experie
 Start a new interview journey by selecting your target role, experience level, focus topics, and personal goals to generate customized questions.
 
 📷 Screenshot:  
-`/screenshots/interview_prep_ai_create_session_page.png`
+![Create Interview Question Page](./screenshots/interview_prep_ai_create_session_page.png)
 
 ---
 
@@ -98,7 +102,7 @@ Start a new interview journey by selecting your target role, experience level, f
 Practice real interview questions with AI-generated answers, detailed explanations, and practical code examples for deeper understanding.
 
 📷 Screenshot:  
-[l]("/screenshots/interview_prep_ai_interview_questions_page.png")
+![Interview Questions Page](./screenshots/interview_prep_ai_interview_questions_page.png)
 
 ---
 
