@@ -98,7 +98,7 @@ Start a new interview journey by selecting your target role, experience level, f
 Practice real interview questions with AI-generated answers, detailed explanations, and practical code examples for deeper understanding.
 
 📷 Screenshot:  
-`/screenshots/interview_prep_ai_interview_questions_page.png`
+[l]("/screenshots/interview_prep_ai_interview_questions_page.png")
 
 ---
 
