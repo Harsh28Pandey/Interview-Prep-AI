@@ -44,9 +44,7 @@ const LandingPage = () => {
 
                         {/* <button
                             onClick={() => setOpenAuthModel(true)}
-                            className="rounded-full bg-linear-to-r from-[#ff9a4b] to-[#f3b44d]
-                px-8 py-2.5 text-sm font-semibold text-white
-                shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                            className="rounded-full bg-linear-to-r from-[#ff9a4b] to-[#f3b44d] px-8 py-2.5 text-sm font-semibold text-white shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
                         >
                             Login / Sign Up
                         </button> */}
@@ -99,17 +97,13 @@ const LandingPage = () => {
                     {/* hero */}
                     <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
                         <div className="animate-slide-up">
-                            <span className="inline-flex items-center gap-2 mb-4 rounded-full
-                border border-amber-300 bg-amber-100 px-4 py-1
-                text-xs font-semibold text-amber-700">
+                            <span className="inline-flex items-center gap-2 mb-4 rounded-full border border-amber-300 bg-amber-100 px-4 py-1 text-xs font-semibold text-amber-700">
                                 <LuSparkles /> AI Powered
                             </span>
 
                             <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-tight text-black">
                                 Ace Interviews with <br />
-                                <span className="font-semibold text-transparent bg-clip-text
-                    bg-[radial-gradient(circle,#ff9324_0%,#fcd760_100%)]
-                    bg-size-[200%_200%] animate-text-shine">
+                                <span className="font-semibold text-transparent bg-clip-text bg-[radial-gradient(circle,#ff9324_0%,#fcd760_100%)] bg-size-[200%_200%] animate-text-shine">
                                     AI-Powered
                                 </span>{" "}
                                 Learning
@@ -124,9 +118,7 @@ const LandingPage = () => {
 
                             <button
                                 onClick={handleCTA}
-                                className="rounded-full bg-black px-9 py-3 text-sm font-semibold text-white
-                    hover:bg-amber-100 hover:text-black hover:border-amber-300
-                    border border-transparent transition-all duration-300 active:scale-95 active:shadow-inner"
+                                className="rounded-full bg-black px-9 py-3 text-sm font-semibold text-white hover:bg-amber-100 hover:text-black hover:border-amber-300 border border-transparent transition-all duration-300 active:scale-95 active:shadow-inner"
                             >
                                 Get Started
                             </button>
@@ -149,10 +141,7 @@ const LandingPage = () => {
                             {APP_FEATURES.slice(0, 3).map((feature) => (
                                 <div
                                     key={feature.id}
-                                    className="group bg-white/70 backdrop-blur-xl
-                        p-6 rounded-2xl border border-amber-100
-                        shadow-md hover:shadow-2xl hover:-translate-y-1
-                        transition-all duration-300"
+                                    className="group bg-white/70 backdrop-blur-xl p-6 rounded-2xl border border-amber-100 shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
                                 >
                                     <h4 className="font-semibold mb-2 group-hover:text-amber-600 transition">
                                         {feature.title}
@@ -166,10 +155,7 @@ const LandingPage = () => {
                             {APP_FEATURES.slice(3).map((feature) => (
                                 <div
                                     key={feature.id}
-                                    className="group bg-white/70 backdrop-blur-xl
-                        p-6 rounded-2xl border border-amber-100
-                        shadow-md hover:shadow-2xl hover:-translate-y-1
-                        transition-all duration-300"
+                                    className="group bg-white/70 backdrop-blur-xl p-6 rounded-2xl border border-amber-100 shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
                                 >
                                     <h4 className="font-semibold mb-2 group-hover:text-amber-600 transition">
                                         {feature.title}
@@ -226,16 +212,11 @@ const LandingPage = () => {
                         ].map((item, i) => (
                             <div
                                 key={i}
-                                className="group relative text-center p-8 rounded-3xl
-                    bg-white/70 backdrop-blur-xl border border-amber-100
-                    shadow-md hover:shadow-2xl hover:-translate-y-2
-                    transition-all duration-300 animate-slide-up"
+                                className="group relative text-center p-8 rounded-3xl bg-white/70 backdrop-blur-xl border border-amber-100 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 animate-slide-up"
                                 style={{ animationDelay: `${i * 150}ms` }}
                             >
                                 {/* step number */}
-                                <div className="mx-auto mb-6 w-16 h-16 flex items-center justify-center
-                    rounded-full bg-linear-to-br from-amber-400 to-orange-400
-                    text-white text-2xl font-bold shadow-xl">
+                                <div className="mx-auto mb-6 w-16 h-16 flex items-center justify-center rounded-full bg-linear-to-br from-amber-400 to-orange-400 text-white text-2xl font-bold shadow-xl">
                                     {item.step}
                                 </div>
 
@@ -248,8 +229,7 @@ const LandingPage = () => {
                                 </p>
 
                                 {/* tag */}
-                                <span className="inline-block text-xs font-semibold px-3 py-1 rounded-full
-                    bg-amber-100 text-amber-700 border border-amber-200">
+                                <span className="inline-block text-xs font-semibold px-3 py-1 rounded-full bg-amber-100 text-amber-700 border border-amber-200">
                                     {item.tag}
                                 </span>
                             </div>
@@ -265,9 +245,7 @@ const LandingPage = () => {
                         ].map((text, i) => (
                             <div
                                 key={i}
-                                className="flex items-center gap-3 justify-center md:justify-start
-                    bg-white/60 backdrop-blur rounded-xl px-6 py-4
-                    border border-amber-100 shadow-sm"
+                                className="flex items-center gap-3 justify-center md:justify-start bg-white/60 backdrop-blur rounded-xl px-6 py-4 border border-amber-100 shadow-sm"
                             >
                                 <span className="text-amber-500 text-lg">✔</span>
                                 <span className="text-gray-700 font-medium">{text}</span>
@@ -276,9 +254,7 @@ const LandingPage = () => {
                     </div>
 
                     {/* CTA */}
-                    <div className="mt-24 flex flex-col md:flex-row items-center justify-between
-        gap-6 p-12 rounded-3xl bg-linear-to-r from-amber-100 to-orange-100
-        border border-amber-200 shadow-2xl animate-fade-in">
+                    <div className="mt-24 flex flex-col md:flex-row items-center justify-between gap-6 p-12 rounded-3xl bg-linear-to-r from-amber-100 to-orange-100 border border-amber-200 shadow-2xl animate-fade-in">
                         <div>
                             <h4 className="text-xl md:text-2xl font-semibold text-black mb-2">
                                 Ready to crack your next interview?
@@ -290,9 +266,7 @@ const LandingPage = () => {
 
                         <button
                             onClick={handleCTA}
-                            className="rounded-full bg-black px-12 py-3 text-sm font-semibold text-white
-                hover:bg-amber-100 hover:text-black hover:border-amber-300
-                border border-transparent transition-all duration-300 active:scale-95 active:shadow-inner"
+                            className="rounded-full bg-black px-12 py-3 text-sm font-semibold text-white hover:bg-amber-100 hover:text-black hover:border-amber-300 border border-transparent transition-all duration-300 active:scale-95 active:shadow-inner"
                         >
                             Start Practicing Now
                         </button>
@@ -319,8 +293,7 @@ const LandingPage = () => {
                                 setOpenAuthModel(true)
                                 setIsMenuOpen(false)
                             }}
-                            className="w-full mb-4 rounded-full border border-amber-300
-                            px-6 py-3 text-sm font-semibold text-black
+                            className="w-full mb-4 rounded-full border border-amber-300 px-6 py-3 text-sm font-semibold text-black
                             hover:bg-amber-100 transition"
                         >
                             Login
