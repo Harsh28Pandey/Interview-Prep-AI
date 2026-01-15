@@ -34,8 +34,8 @@ Interview Prep AI is a modern, AI-powered interview preparation platform that he
 
 ## 📸 Screenshots & Pages
 
-### 🏠 Interview Prep AI – Home  
- 
+### 🏠 Interview Prep AI – Home
+
 AI-powered platform to generate role-specific interview questions, explore concepts deeply, and prepare smarter for technical and professional interviews.
 
 📷 Screenshot:
@@ -44,7 +44,7 @@ AI-powered platform to generate role-specific interview questions, explore conce
 
 ---
 
-### 🔐 Interview Prep AI – Login  
+### 🔐 Interview Prep AI – Login
 
 Securely log in to access your personalized interview sessions, saved progress, and AI-driven learning experience.
 
@@ -54,7 +54,7 @@ Securely log in to access your personalized interview sessions, saved progress, 
 
 ---
 
-### 📝 Interview Prep AI – Sign Up  
+### 📝 Interview Prep AI – Sign Up
 
 Create your account to unlock personalized interview preparation, role-based questions, and structured learning paths.
 
@@ -64,8 +64,8 @@ Create your account to unlock personalized interview preparation, role-based que
 
 ---
 
-### 📊 Interview Prep AI – Dashboard  
- 
+### 📊 Interview Prep AI – Dashboard
+
 Manage all your interview preparation journeys in one place. View roles, experience level, number of questions, and last updates.
 
 📷 Screenshot:
@@ -74,7 +74,7 @@ Manage all your interview preparation journeys in one place. View roles, experie
 
 ---
 
-### ➕ Interview Prep AI – Create Interview Session  
+### ➕ Interview Prep AI – Create Interview Session
 
 Start a new interview journey by selecting your target role, experience level, focus topics, and personal goals to generate customized questions.
 
@@ -84,7 +84,7 @@ Start a new interview journey by selecting your target role, experience level, f
 
 ---
 
-### ❓ Interview Prep AI – Interview Q&A  
+### ❓ Interview Prep AI – Interview Q&A
 
 Practice real interview questions with AI-generated answers, detailed explanations, and practical code examples for deeper understanding.
 
@@ -100,7 +100,9 @@ Practice real interview questions with AI-generated answers, detailed explanatio
 Experience the full functionality of Interview Prep AI in real time. Generate role-specific interview questions, explore detailed answers, and manage your personalized interview preparation journey with an intuitive AI-powered interface.
 
 🔗 **Live URL:**  
-👉 [Visit Interview Prep AI Live 🚀](https://interview-prep-ai-1-sqi7.onrender.com/)
+<a href="https://prepareinterview.vercel.app/" style="text-decoration: none;">
+👉 Visit Interview Prep AI Live 🚀
+</a>
 
 ✨ Built to help candidates prepare smarter, faster, and more confidently for real-world technical interviews.
 
