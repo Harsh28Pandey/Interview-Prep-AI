@@ -40,7 +40,7 @@ AI-powered platform to generate role-specific interview questions, explore conce
 
 📷 Screenshot:
 
-![Home Page](./screenshots/interview_prep_ai_home_page.png)
+![Home Page](./frontend/src/assets/interview_prep_ai_home_page.png)
 
 ---
 
@@ -50,7 +50,7 @@ Securely log in to access your personalized interview sessions, saved progress, 
 
 📷 Screenshot:
 
-![Login Page](./screenshots/interview_prep_ai_login_page.png)
+![Login Page](./frontend/src/assets/interview_prep_ai_login_page.png)
 
 ---
 
@@ -60,7 +60,7 @@ Create your account to unlock personalized interview preparation, role-based que
 
 📷 Screenshot:
 
-![Sign Up Page](./screenshots/interview_prep_ai_signup_page.png)
+![Sign Up Page](./frontend/src/assets/interview_prep_ai_signup_page.png)
 
 ---
 
@@ -70,7 +70,7 @@ Manage all your interview preparation journeys in one place. View roles, experie
 
 📷 Screenshot:
 
-![Dashboard Page](./screenshots/interview_prep_ai_dashboard_page.png)
+![Dashboard Page](./frontend/src/assets/interview_prep_ai_dashboard_page.png)
 
 ---
 
@@ -80,7 +80,7 @@ Start a new interview journey by selecting your target role, experience level, f
 
 📷 Screenshot:
 
-![Create Interview Question Page](./screenshots/interview_prep_ai_create_session_page.png)
+![Create Interview Question Page](./frontend/src/assets/interview_prep_ai_create_session_page.png)
 
 ---
 
@@ -90,7 +90,7 @@ Practice real interview questions with AI-generated answers, detailed explanatio
 
 📷 Screenshot:
 
-![Interview Questions Page](./screenshots/interview_prep_ai_interview_questions_page.png)
+![Interview Questions Page](./frontend//src/assets/interview_prep_ai_interview_questions_page.png)
 
 ---
 
