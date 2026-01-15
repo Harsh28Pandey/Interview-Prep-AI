@@ -99,10 +99,20 @@ Practice real interview questions with AI-generated answers, detailed explanatio
 🚀 **Interview Prep AI – Live Application**  
 Experience the full functionality of Interview Prep AI in real time. Generate role-specific interview questions, explore detailed answers, and manage your personalized interview preparation journey with an intuitive AI-powered interface.
 
-🔗 **Live URL:**  
-<a href="https://prepareinterview.vercel.app/" style="text-decoration: none; font-weight: bold;">
-👉 Visit Interview Prep AI Live 🚀
-</a>
+🔗 **Live URL:**
+
+<p align="center">
+  <a href="https://prepareinterview.vercel.app/"
+     style="display:inline-block;
+            padding:14px 26px;
+            background:#16a34a;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:600;">
+    🚀 Visit Interview Prep AI Live
+  </a>
+</p>
 
 ✨ Built to help candidates prepare smarter, faster, and more confidently for real-world technical interviews.
 
