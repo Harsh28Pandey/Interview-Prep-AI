@@ -102,8 +102,15 @@ Experience the full functionality of Interview Prep AI in real time. Generate ro
 🔗 **Live URL:**
 
 <p align="center">
-  <a href="https://prepareinterview.vercel.app/">
-    <img src="https://img.shields.io/badge/Live-Demo-2563eb?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://prepareinterview.vercel.app/"
+     style="display:inline-block;
+            padding:14px 26px;
+            background:#16a34a;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:600;">
+    🚀 Visit Interview Prep AI Live
   </a>
 </p>
 
