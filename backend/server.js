@@ -26,6 +26,11 @@ connectDB()
 // Middleware
 app.use(express.json())
 
+// ✅ ROOT ROUTE (Fixes Cannot GET /)
+app.get("/", (req, res) => {
+    res.send("Backend is running successfully 🚀")
+})
+
 // Routes
 app.use("/api/auth", authRoutes)
 app.use("/api/sessions", sessionRoutes)
@@ -38,5 +43,7 @@ app.use("/api/ai/generate-explanation", protect, generateConceptExplanation)
 app.use("/uploads", express.static(path.join(__dirname, "uploads"), {}))
 
 // Start Server
-const PORT = process.env.PORT || 5000
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+// const PORT = process.env.PORT || 5000
+// app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+
+module.exports = app
