@@ -104,11 +104,11 @@ Experience the full functionality of Interview Prep AI in real time. Generate ro
 <p align="center">
   <a href="https://prepareinterview.vercel.app/" style="text-decoration:none;">
     <button style="
-      padding:14px 30px;
-      background-color:#2563eb;
+      padding:14px 32px;
+      background:linear-gradient(90deg,#6366f1,#2563eb);
       color:white;
       border:none;
-      border-radius:12px;
+      border-radius:14px;
       font-size:16px;
       font-weight:600;
       cursor:pointer;
